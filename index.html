@@ -5,6 +5,7 @@
 	<title>Ivan Efremov</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48837169-1"></script>
@@ -48,6 +49,7 @@
 
 	h3 > span {
 		text-decoration: underline;
+		cursor: pointer;
 	}
 
 	.socials {
@@ -62,12 +64,29 @@
 		height: 50px;
 		vertical-align: bottom;
 	}
+
+	.card {
+		width: max-content;
+		padding: 10px 15px;
+		background-color: white;
+		box-shadow: 0 0 10px 2px #e3e3e3;
+		height: 10%;
+		cursor: pointer;
+		border-radius: 5px;
+	}
+
+	h3 {
+		cursor: pointer;
+		font-size: 150%;
+	}
 </style>
 
 <div class="container">
   	<center>
-      <h3>Hello, my name is Ivan</h3>
-      <h3>and I a web-<span>dev</span>eloper</h3>
+  		<div class="card">
+	      <h3>Hello, my name is Ivan</h3>
+	      <h3>and I a web-<span>dev</span>eloper</h3>
+  		</div>
     </center>
 </div>
 
@@ -83,10 +102,6 @@
 
 			<a href="https://github.com/goodstemy" target="_blank">
 				<img src="https://cdn0.iconfinder.com/data/icons/social-glyph/30/github-120.png" alt="">
-			</a>
-
-			<a href="http://instagram.com/good.stemy/" target="_blank">
-				<img src="https://cdn0.iconfinder.com/data/icons/social-glyph/30/instagram-120.png" alt="">
 			</a>
 	</center>
 </div>
